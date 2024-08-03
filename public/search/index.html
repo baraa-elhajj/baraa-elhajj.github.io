@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>Search Results</title>
+    <title>Resultados de Búsqueda</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -13,13 +13,13 @@
 
 
 <meta property="og:url" content="http://localhost:1313/search/">
-  <meta property="og:site_name" content="Baraa&#39;s Website">
-  <meta property="og:title" content="Search Results">
-  <meta property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
+  <meta property="og:site_name" content="Baraa&#39;s Blog">
+  <meta property="og:title" content="Resultados de Búsqueda">
+  <meta property="og:description" content="Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
+Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
+Esta implementación utiliza Fusejs, jquery y mark.js
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="search">
@@ -28,12 +28,12 @@ Initial setup Search depends on additional output content type of JSON in config
 
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Search Results">
-  <meta name="twitter:description" content="This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
+  <meta name="twitter:title" content="Resultados de Búsqueda">
+  <meta name="twitter:description" content="Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
+Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
+Esta implementación utiliza Fusejs, jquery y mark.js
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.">
 
     
      
@@ -89,6 +89,8 @@ Initial setup Search depends on additional output content type of JSON in config
 
 
 
+  
+
 
 
 
@@ -103,7 +105,7 @@ Initial setup Search depends on additional output content type of JSON in config
     </button>
     
     <a class="navbar-brand" href="/">
-      Baraa&#39;s Website</a>
+      Baraa&#39;s Blog</a>
     <button
       class="navbar-toggler navbar-light"
       id="navbar-toggler"
@@ -121,6 +123,17 @@ Initial setup Search depends on additional output content type of JSON in config
           <a class="nav-link" href="/#home">Home</a>
         </li>
         
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+          
         
         
           <div id="top-navbar-divider"></div>
@@ -230,14 +243,23 @@ Initial setup Search depends on additional output content type of JSON in config
 
   
   
+    
+  
+
+  
+  
+    
+  
 
   
   
 
   
   
-
-  
+    
+    
+      
+    
   
 
 
@@ -267,8 +289,52 @@ Initial setup Search depends on additional output content type of JSON in config
         <div class="col-md-4 col-sm-12">
           <h5>Navigation</h5>
           
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#about">About</a>
+                </li>
+              
+            
+              
+            
+          </ul>
+          
         </div>
         
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:baraa.w.hajj@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>baraa.w.hajj@gmail.com</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/hj-baraa target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>hj-baraa</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/baraa-elhajj target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>Baraa El Hajj</span>
+                </a></li>
+              
+            
+              
+                <li><span><i class="fas fa-phone-alt"></i></span> <span>&#43;96179319246</span></li>
+              
+            
+          </ul>
+        </div>
         
         
         
@@ -318,15 +384,6 @@ Initial setup Search depends on additional output content type of JSON in config
 
 
     <script src="/application.e10a45a55536df5826c0bea2cf4b24a703f36c520cfe4320007255a88ef2591f.js" integrity="sha256-4QpFpVU231gmwL6iz0skpwPzbFIM/kMgAHJVqI7yWR8=" defer></script>
-
-
-    
-     
-
-    
-</body>
-</html>
-2591f.js" integrity="sha256-4QpFpVU231gmwL6iz0skpwPzbFIM/kMgAHJVqI7yWR8=" defer></script>
 
 
     

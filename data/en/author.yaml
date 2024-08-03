@@ -1,0 +1,17 @@
+# Personal Info
+name: "Baraa El Hajj"
+nickname: "Baraa"
+greeting: "Hi, I am"
+image: "images/profile.jpg"
+contactInfo:
+  email: "baraa.w.hajj@gmail.com"
+  phone: "+96179319246"
+  github: hj-baraa
+  linkedin: baraa-elhajj
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I am a Software Engineer
+  - I love to code
+  - I love to work with some fun projects

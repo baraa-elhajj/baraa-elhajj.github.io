@@ -1,0 +1,69 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Former Software Engineer
+company:
+  name: Payleadr
+  url: "https://payleadr.com/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/Baraa El Hajj - Resume.pdf"
+
+# a summary about you
+summary: "A dedicated software engineer with over 2 years of hands-on experience in software development and a strong expertise in C#, .NET, MySQL, and more. My passion lies in tackling intricate challenges, conceiving innovative solutions, and consistently delivering top-notch code that not only bolsters businesses but also enhances user satisfaction. My belief in the power of collaboration and teamwork is backed by a proven track record of efficiently working with cross-functional teams, resulting in the successful delivery of impactful projects."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "baraa.w.hajj@gmail.com"
+
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/hj-baraa"
+
+  # - name: Stackoverflow
+  #   icon: "fab fa-stack-overflow"
+  #   url: "#"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/baraa-elhajj/"
+
+  # - name: Twitter
+  #   icon: "fab fa-twitter"
+  #   url: "#"
+
+  # - name: Facebook
+  #   icon: "fab fa-facebook"
+  #   url: "#"
+
+# Badges: certifications, and soft skills
+badges:
+  # - type: certification
+  #   name: Certified Kubernetes Security Specialist
+  #   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+  #   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+
+  - type: soft-skill-indicator
+    name: Team Work
+    percentage: 90
+    color: blue
+
+  - type: soft-skill-indicator
+    name: Leadership
+    percentage: 70
+    color: yellow
+
+  - type: soft-skill-indicator
+    name: Hard Working
+    percentage: 85
+    color: orange
