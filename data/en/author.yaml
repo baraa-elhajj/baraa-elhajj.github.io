@@ -3,13 +3,15 @@ name: "Baraa El Hajj"
 nickname: "Baraa"
 greeting: "Hi, I am"
 image: "images/profile.jpg"
+
+# These will be displayed at the footer
 contactInfo:
   email: "baraa.w.hajj@gmail.com"
   phone: "+96179319246"
   github: hj-baraa
   linkedin: baraa-elhajj
 
-# some summary about what you do
+# To show under the profile photo
 summary:
   - I am a Developer
   - I am a Software Engineer
