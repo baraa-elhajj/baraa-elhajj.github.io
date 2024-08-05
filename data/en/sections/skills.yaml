@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
+  - name: C#
+    logo: /images/sections/skills/csharp.png
+    summary: "I have solid experience working with C# and am well-versed in most of its technologies. I have developed a variety of applications using its robust features, including .NET Core and Dapper for efficient data access and API development."
+    url: "https://docs.microsoft.com/en-us/dotnet/csharp/"
+
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Experienced with git-based development. Used Bitbucket and Github in prior experiences. Getting familiar with GitLab and Github Pages."
+    url: "https://git-scm.com/"
+
+  - name: SQL
+    logo: /images/sections/skills/sql.png
+    summary: "I have strong experience working with SQL, primarily using MySQL, along with some experience in MS SQL Server and Oracle. I have developed and maintained various database solutions utilizing these platforms."
+
+  - name: Java
+    logo: /images/sections/skills/java.png
+    summary: "I have a good understanding of Java, the Hibernate framework, and the basics of the Spring framework. I also have experience working with Groovy and Grails."
+    url: "https://www.oracle.com/java/"
+
+  - name: AWS
+    logo: /images/sections/skills/aws.png
+    summary: "I have foundational experience in AWS, including AWS Lambda for serverless computing and Amazon SNS and SQS for messaging. This covers cloud computing, event-driven architectures, and basic monitoring and logging."
+    url: "https://aws.amazon.com/"
+
+  - name: Microsoft
+    logo: /images/sections/skills/microsoft.png
+    summary: "Using as main operating system. Familiar with its services, environment and command line."
+    url: "https://www.microsoft.com/"
+
+  - name: Agile
+    logo: /images/sections/skills/agile.png
+    summary: "I have a strong background in Agile methodologies, focusing on iterative development and adaptive planning. I excel in collaborating with teams to achieve project goals and deliver value efficiently in fast-paced environments."

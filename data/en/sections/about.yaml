@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Former Software Engineer
+designation: Former Full Stack Engineer
 company:
   name: Payleadr
   url: "https://payleadr.com/"
@@ -67,3 +67,13 @@ badges:
     name: Hard Working
     percentage: 85
     color: orange
+
+  - type: soft-skill-indicator
+    name: Problem Solving
+    percentage: 85
+    color: green
+
+  - type: soft-skill-indicator
+    name: Communication
+    percentage: 90
+    color: "#ac50fd"

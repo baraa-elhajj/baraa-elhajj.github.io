@@ -2,7 +2,7 @@
 name: "Baraa El Hajj"
 nickname: "Baraa"
 greeting: "Hi, I am"
-image: "images/profile.jpg"
+image: "images/profile.png"
 
 # These will be displayed at the footer
 contactInfo:
@@ -16,4 +16,4 @@ summary:
   - I am a Developer
   - I am a Software Engineer
   - I love to code
-  - I love to work with some fun projects
+  - I love to collaborate with professional teams
