@@ -51,7 +51,7 @@ enableEmoji: true
 # Site parameters
 params:
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hj-baraa/baraa-elhajj.github.io
+  gitRepo: https://github.com/baraa-elhajj/baraa-elhajj.github.io
 
   features:
     # Enable portfolio section
