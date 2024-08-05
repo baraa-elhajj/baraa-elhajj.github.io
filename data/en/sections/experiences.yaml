@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# Your experiences
+experiences:
+  - company:
+      name: Payleadr
+      url: "https://payleadr.com/"
+      location: Sydney, Australia
+      logo: /images/sections/experiences/payleadr_logo.jpeg
+      # darkLogo: /images/sections/experiences/...
+      overview: Payleadr is a company specializing in payment solutions, offering innovative services to streamline transactions and enhance financial management. It focuses on providing efficient, user-friendly platforms for handling various payment needs in today’s digital economy.
+    positions:
+      - designation: Junior Full Stack Engineer
+        start: Jan 2022
+        end: Oct 2023
+        responsibilities:
+          - Develop and integrate payment solutions.
+          - Design and implement payment engines.
+          - Develop and enhance the Payleadr platform.
+          - Design and write API documentations.
+          - Review and collaborate on teammates code.
+
+  - company:
+      name: DTP
+      url: "https://payleadr.com/"
+      location: Tripoli, Lebanon
+      logo: /images/sections/experiences/dtp_logo.png
+      # darkLogo: /images/sections/experiences/...
+      overview: DTP helps the aviation, transportation, and logistics industries take full advantage of their data and digital technologies to accomplish their business goals.
+    positions:
+      - designation: Backend Developer Intern
+        start: Nov 2021
+        end: Jan 2022
+        responsibilities:
+          - Go through intense courses.
+          - Acquire a good understanding of Java core concepts.
+          - "Get familiar with Java frameworks: Spring, Hibernate, etc."
