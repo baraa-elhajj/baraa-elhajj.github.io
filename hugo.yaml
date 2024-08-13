@@ -58,6 +58,9 @@ params:
     portfolio:
       enable: true
 
+    darkMode:
+      enable: true
+
     # Enable blog posts
     blog:
       enable: false
